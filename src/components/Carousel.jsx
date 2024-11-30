@@ -5,10 +5,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Carousel = () => {
   const images = [
-    "../src/assets/bg2.jpg",
-    "../src/assets/bg1.jpg",
-    "../src/assets/bg3.jpg",
-    "../src/assets/bg4.jpg",
+    "../public/assets/bg2.jpg",
+    "../public/assets/bg1.jpg",
+    "../public/assets/bg3.jpg",
+    "../public/assets/bg4.jpg",
   ];
 
   const settings = {
