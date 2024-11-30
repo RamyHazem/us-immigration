@@ -1,7 +1,19 @@
+import React from "react";
+import HomePage from "./components/HomePage";
+import Navbar from "./components/Navbar";
+import AboutSection from "./Sections/AboutSection";
+
 function App() {
   return (
-    <div className="flex align-center justify-center">
-      <h1 className="text-3xl">Welcome to US Immigration</h1>
+    <div className="app">
+      <div className="top relative">
+        <Navbar />
+        <HomePage />
+      </div>
+      <AboutSection />
+      <section id="process" className="section bg-gray-300">
+        <h1>PROCESS</h1>
+      </section>
     </div>
   );
 }
