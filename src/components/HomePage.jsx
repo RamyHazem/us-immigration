@@ -8,10 +8,11 @@ const HomePage = () => {
       id="home"
       className="home flex flex-col items-center justify-center bg-cover bg-center h-screen relative"
     >
-      <div className="absolute bottom-0 w-full ">
+      <div class="image-overlay z-10"></div>
+      <div className="absolute bottom-0 w-full z-0">
         <Carousel />
       </div>
-      <div className="text mb-8 z-2 relative flex flex-col">
+      <div className="text z-20 relative flex flex-col justify-center items-center">
         <h1 className="text-[#dcbc06] text-6xl text-center">
           Welcome to the USA
         </h1>
@@ -27,6 +28,7 @@ const HomePage = () => {
             Explore our Insights
           </Link>
         </span>
+        <button className="needs-survey-btn">Needs Assessment Survey</button>
       </div>
     </section>
   );
