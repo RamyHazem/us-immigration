@@ -28,7 +28,6 @@ const HomePage = () => {
             Explore our Insights
           </Link>
         </span>
-        <button className="needs-survey-btn">Needs Assessment Survey</button>
       </div>
     </section>
   );

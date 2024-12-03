@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Step 1: Lawful & Permanent Resident Form",
+    "content": "U.S. citizens and lawful permanent residents living in the United States need to submit Form I-130, known as the Petition for Alien Relative, to the United States Citizenship and Immigration Services (USCIS). This can be completed online or by mailing in a paper application."
+  },
+  {
+    "name": "Step 2: Visa Pre-Processing ",
+    "content": "After USCIS gives your petition the green light, it will be passed over to the Department of State's National Visa Center (NVC) for pre-processing. The first thing we do is set up your case in our system. Once that's done, you'll receive a Welcome Letter either via email or physical mail. This letter will have the details you need to log into our Consular Electronic Application Center (CEAC), where you can check your status, get updates, and manage your case. Once you pay your fees and submit your forms and supporting documents to the NVC, we will carefully review your case to ensure you've provided everything needed to schedule your immigrant visa interview. Remember that interview scheduling is subject to the availability of appointments at the Embassy or Consulate."
+  },
+  {
+    "name": "Step 3: Pay Processing Fees",
+    "content": "The first thing you need to do after receiving your NVC Welcome Letter is pay your processing fees. There are two processing fees: \n1. Immigrant Visa Application Processing Fee \n2. Affidavit of Support Fee."
+  },
+
+  {
+    "name": "Step 4: Affidavit of Support Form",
+    "content": "An Affidavit of Support, known as Form I-864, is a document that an individual fills out to take on financial responsibility for someone who is moving to the United States. The person who takes on this role is referred to as the “sponsor.” While the petitioner is required to complete Form I-864, if their income doesn't meet the necessary threshold, they can have a joint sponsor who agrees to fill out an I-864 for the applicant as well."
+  },
+  {
+    "name": "Step 5: Gathering Financial Evidence",
+    "content": "After the financial sponsor(s) completes the Affidavit of Support form, they should gather evidence of their finances"
+  },
+  {
+    "name": "Step 6: Application for Immigrant Visa & Alien Registration",
+    "content": "Once you've settled the fees and the CEAC status indicates 'PAID', you and any qualified family members accompanying you should proceed to fill out the Application for Immigrant Visa and Alien Registration (Form DS-260)."
+  },
+  {
+    "name": "Step 7: Collecting Civil Documents",
+    "content": "After you complete your DS-260(s), you and each family member immigrating with you MUST collect the civil documents required to support your visa application."
+  },
+  {
+    "name": "Step 8: Scan and Save Documents",
+    "content": "Once you have collected all the necessary documents, you must scan and save them. Here are some mistakes to avoid"
+  },
+  {
+    "name": "Step 9: Upload and Submit Documents",
+    "content": "Upload and Submit Scanned Documents. Do not send any documents to NVC by mail. However, you must bring every civil document you uploaded and submitted with your application to your visa interview."
+  },
+  {
+    "name": "Step 10: Preparation for the Visa Interview",
+    "content": "Once the National Visa Center (NVC) has scheduled your visa interview, an email will be sent to you, your petitioner, and your agent or attorney (if applicable) detailing the date and time of your appointment. After you receive your Interview Appointment Letter from the NVC, you will have all the necessary information to prepare for your interview. You must take the following steps BEFORE the interview date: \n1. Schedule and Complete a Medical Examination \n2. Register for courier services/other pre-interview \n3. Gather Documents Required for the Interview"
+  },
+
+  {
+    "name": "Step 11: What to Bring to the Interview",
+    "content": "Appointment Letter\nPassport\n2 Photographs\nDS-260 Confirmation Page\nSupporting Documents"
+  },
+  {
+    "name": "Step 12: Approved?",
+    "content": "If your visa is approved, you will be informed how and when your passport and visa will be returned to you."
+  }
+]

@@ -12,7 +12,8 @@ const ItemsSection = () => {
   ];
 
   return (
-    <section id="items" className="section items ">
+    <section id="items" className="section items flex-col gap-40">
+      <span className="text-6xl">Navigate</span>
       <div className="main-grid">
         {items.map((item) => {
           return (

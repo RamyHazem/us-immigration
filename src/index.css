@@ -15,10 +15,14 @@ html {
 }
 
 section {
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   font-weight: 700;
-  /* margin-bottom: 10rem; */
+  background: linear-gradient(to bottom, #ffffff, #a9e2d3, #7fbb9e);
+}
+
+section:nth-child(even) {
+  background: linear-gradient(to top, #ffffff, #a9e2d3, #7fbb9e);
 }
 
 .navbar {
@@ -38,17 +42,7 @@ section {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.needs-survey-btn {
-  position: absolute;
-  transform: translate(0%, 300%);
-  background-color: #dcbc06;
-  border-radius: 10px;
-  height: 6rem;
-  width: 15rem;
-}
-
 .items {
-  background: linear-gradient(to bottom, #ffffff, #5cc3b4, #429c8e);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,4 +75,21 @@ section {
 .grid-item-container:hover {
   transform: scale(1.5);
   background-color: rgba(72, 164, 146, 0.7);
+}
+/* 
+.process {
+
+} */
+
+.desc {
+  width: 70vw;
+}
+
+.cards > div:hover {
+  transform: scale(1.5);
+  background-color: rgba(72, 164, 146, 0.7);
+}
+
+.us-link-btn {
+  border-radius: 15px;
 }

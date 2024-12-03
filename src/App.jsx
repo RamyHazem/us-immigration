@@ -3,6 +3,8 @@ import HomePage from "./components/HomePage";
 import Navbar from "./components/Navbar";
 import AboutSection from "./Sections/AboutSection";
 import ItemsSection from "./Sections/ItemsSection";
+import ProcessSection from "./Sections/ProcessSection";
+import EducationSection from "./Sections/EducationSection";
 
 function App() {
   return (
@@ -13,9 +15,8 @@ function App() {
       </div>
       <ItemsSection />
       <AboutSection />
-      <section id="process" className="section bg-gray-300">
-        <h1>PROCESS</h1>
-      </section>
+      <ProcessSection />
+      <EducationSection />
     </div>
   );
 }

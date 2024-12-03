@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 const Carousel = () => {
   const images = [
     "../images/bg2.jpg",
-    "../images/bg6.jpg",
+    "../images/bg3.jpg",
     "../images/bg5.jpg",
     "../images/bg4.jpg",
     "../images/bg7.jpg",
