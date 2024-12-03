@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar flex flex-row items-center justify-around w-full fixed top-0 z-50">
-      <span className="text-6xl font-bold text-center mx-5 cursor-pointer">
+      <span className=" sm:text-3xl lg:text-6xl font-bold text-center mx-5 cursor-pointer">
         <Link
           activeClass="active"
           to="home"

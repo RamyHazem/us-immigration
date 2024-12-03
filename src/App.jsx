@@ -5,6 +5,7 @@ import AboutSection from "./Sections/AboutSection";
 import ItemsSection from "./Sections/ItemsSection";
 import ProcessSection from "./Sections/ProcessSection";
 import EducationSection from "./Sections/EducationSection";
+import CuisineSection from "./Sections/CuisineSection";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <AboutSection />
       <ProcessSection />
       <EducationSection />
+      <CuisineSection />
     </div>
   );
 }

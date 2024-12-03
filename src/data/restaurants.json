@@ -1,0 +1,44 @@
+[
+  {
+    "name": "McDonald's",
+    "description": "McDonald's is the most popular fast food chain in the United States, serving burgers, chicken sandwiches, and chicken nuggets.",
+    "budget": "$6-$8 per person",
+    "link": "https://www.mcdonalds.com/us/en-us.html",
+    "image": "../images/mcdonalds.jpg"
+  },
+  {
+    "name": "Chick-fil-A",
+    "description": "Chick-fil-A is a popular fast food chain known for their chicken sandwiches, salads, and chicken strips.",
+    "budget": "$11-$14 per person",
+    "link": "https://www.chick-fil-a.com/",
+    "image": "../images/chick-fil-a.jpg"
+  },
+  {
+    "name": "Chipotle",
+    "description": "Chipotle is the most popular Mexican-American fast food chain, serving burritos, tacos, and burrito bowls.",
+    "budget": "$5-$7 per person",
+    "link": "https://www.chipotle.com/",
+    "image": "../images/chipotle.jpg"
+  },
+  {
+    "name": "In-N-Out",
+    "description": "In-N-Out is a popular burger chain known for its high-quality burgers, with locations in limited states.",
+    "budget": "$6-$8 per person",
+    "link": "https://www.in-n-out.com/",
+    "image": "../images/in-n-out.jpg"
+  },
+  {
+    "name": "Five Guys",
+    "description": "Five Guys is a burger spot that serves burgers, hotdogs, and fries, known for high-quality food but at a slightly higher price.",
+    "budget": "$8-$12 per person",
+    "link": "https://www.fiveguys.com/",
+    "image": "../images/five-guys.jpg"
+  },
+  {
+    "name": "Wingstop",
+    "description": "Wingstop is known as the best wing spot in the States, serving chicken wings with various flavors.",
+    "budget": "$10-$15 per person",
+    "link": "https://ir.wingstop.com/",
+    "image": "../images/wingstop.jpg"
+  }
+]
