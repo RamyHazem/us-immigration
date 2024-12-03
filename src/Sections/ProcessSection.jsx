@@ -24,7 +24,7 @@ const ProcessSection = () => {
   return (
     <section
       id="process"
-      className="section process flex flex-col items-center w-full pt-40 px-6 lg:px-12"
+      className="section process flex flex-col items-center w-full px-6 lg:px-12"
     >
       <span className="text-5xl mb-12 text-center">
         The Application Process
@@ -61,7 +61,7 @@ const ProcessSection = () => {
 
       {/* Centered Button at the Bottom */}
       <div className="mt-12">
-        <button className="us-link-btn bg-[#f4d97e] text-center w-60 p-4">
+        <button className="us-link-btn bg-yellow-500 text-white text-lg px-8 py-4 rounded-full shadow-md hover:bg-yellow-600 transitiontext-center w-60 p-4">
           <a
             className=""
             target="_blank"

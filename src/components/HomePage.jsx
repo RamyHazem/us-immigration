@@ -19,7 +19,7 @@ const HomePage = () => {
         <span className="text-white font-medium text-center underline text-lg mt-3 cursor-pointer">
           <Link
             activeClass="active"
-            to="about"
+            to="items"
             spy={true}
             smooth={true}
             offset={0}
