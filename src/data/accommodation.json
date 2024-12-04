@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Arkansas",
+    "population": "About 3 million",
+    "annualSalary": "$42,989",
+    "housingCost": "$840 per month",
+    "description": "Arkansas is renowned for its booming agricultural industry, as well as folk music, hot springs, and art scene in big cities like Little Rock.",
+    "image": "/images/arkansas.jpg"
+  },
+  {
+    "name": "Mississippi",
+    "population": "About 2.9 million",
+    "annualSalary": "$41,594",
+    "housingCost": "$890 per month",
+    "description": "Thanks to its location, winters are mild in Mississippi, although the summers are hot. Mississippians are proud of their Southern heritage, from their fried catfish recipes to a storied tradition of blues music.",
+    "image": "/images/mississippi.jpg"
+  },
+  {
+    "name": "Kansas",
+    "population": "2.9 million",
+    "annualSalary": "$42,673",
+    "housingCost": "$970 per month",
+    "description": "Kansas is famous for agriculture and Kansas City-style barbecue. Groceries are cheaper in Kansas than they are in Mississippi or Oklahoma. However, health costs are more expensive, which means you’ll pay 3.4% more than the national average for healthcare in Kansas.",
+    "image": "/images/kansas.jpg"
+  },
+  {
+    "name": "Indiana",
+    "population": "6.8 million",
+    "annualSalary": "$46,913",
+    "housingCost": "$980 per month",
+    "description": "Indiana is a Midwestern state that’s famous for growing corn and soybeans. The state shares a border with Lake Michigan, which makes it a popular destination for watersports and swimming.",
+    "image": "/images/indiana.jpg"
+  },
+  {
+    "name": "Oklahoma",
+    "population": "3.9 million",
+    "annualSalary": "$50,415",
+    "housingCost": "$1000 per month",
+    "description": "Oklahoma is a beautiful state with plenty of outdoor areas for recreation, as well as urban areas. Oklahoma has many tribal reservations, including attractions like casinos, where gambling is legal.",
+    "image": "/images/oklahoma.jpg"
+  }
+]

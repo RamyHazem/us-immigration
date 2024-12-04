@@ -15,22 +15,29 @@ html {
 }
 
 section {
-  height: 120vh;
+  min-height: 100vh; /* Full screen */
   width: 100%;
   font-weight: 700;
   background: linear-gradient(to bottom, #ffffff, #a9e2d3, #7fbb9e);
 }
 
-section:nth-child(even) {
+section:nth-child(odd) {
   background: linear-gradient(to top, #ffffff, #a9e2d3, #7fbb9e);
 }
 
 .navbar {
-  backdrop-filter: blur(3px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50; /* Keep navbar over everything else */
+  padding: 10px 0;
+  transition: background-color 0.3s ease; /* Smooth transition for the background */
 }
 
-.home {
-  position: relative;
+/* Add a transparent background initially */
+.navbar.bg-transparent {
+  background-color: transparent;
 }
 
 .image-overlay {
@@ -42,54 +49,6 @@ section:nth-child(even) {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.main-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 10px;
-  position: relative;
-}
-
-.grid-item-container {
-  width: 15rem;
-  height: 15rem;
-  border-radius: 8px;
-  transition: scale 1s ease-in;
-}
-
-.grid-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-}
-
-.grid-item-container:hover {
-  transform: scale(1.5);
-  background-color: rgba(72, 164, 146, 0.7);
-}
-/* 
-.process {
-
-} */
-
-.desc {
-  width: 70vw;
-}
-
-.cards > div:hover {
-  transform: scale(1.5);
-  background-color: rgba(72, 164, 146, 0.7);
-}
-
-.us-link-btn {
-  border-radius: 15px;
+.text {
+  z-index: 20; /* Keep text above the carousel */
 }

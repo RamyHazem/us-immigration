@@ -21,7 +21,7 @@ const CuisineSection = () => {
             <div className="p-6">
               <h3 className="text-2xl font-semibold mb-2">{restaurant.name}</h3>
               <p className="text-gray-600 mb-4">{restaurant.description}</p>
-              <p className="text-lg font-medium text-gray-800 mb-4">
+              <p className="text-lg font-medium text-green-600 mb-4">
                 {restaurant.budget}
               </p>
               <a

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Disney World",
+    "description": "Disney World in Florida features 4 specific theme parks: Magic Kingdom, Epcot, Disney's Hollywood Studios, and Disney's Animal Kingdom. It also includes 2 water parks: Blizzard Beach and Typhoon Lagoon. Visitors can explore vast shopping opportunities in ‘Disney Springs’ and stay in one of the 25 themed hotels. Disney World has been entertaining families since its opening in 1971.",
+    "budget": "$194 - $244",
+    "url": "https://disneyworld.disney.go.com/",
+    "image": "../images/disney-world.jpg"
+  },
+  {
+    "name": "Grand Canyon",
+    "description": "Located in northern Arizona, the Grand Canyon is a natural wonder carved over millions of years by the Colorado River. Famous for its stunning size and colorful layered rocks, it spans 446 km in length, up to 29 km in width, and 1.6 km in depth. The canyon holds cultural significance for Native American tribes like the Hopi and Navajo. Visitors can hike trails such as the Bright Angel Trail, raft the Colorado River, or enjoy breathtaking views from the South and North Rim.",
+    "budget": "$20 - $35",
+    "url": "https://www.nps.gov/grca/index.htm",
+    "image": "../images/grand-canyon.jpg"
+  },
+  {
+    "name": "Central Park",
+    "description": "Central Park is a sprawling 843-acre park in the heart of Manhattan, New York. Designed by Frederick Law Olmsted and Calvert Vaux, it opened in 1858 as a green oasis amidst the bustling city. Perfect for families, it is free to visit and hosts events, performances, and concerts, making it an ideal spot for relaxation and recreation without spending much.",
+    "budget": "Free",
+    "url": "https://www.centralpark.com/",
+    "image": "../images/central-park.jpg"
+  },
+  {
+    "name": "Hollywood",
+    "description": "Hollywood, located in Los Angeles, California, is the global center of the entertainment industry. Visitors can explore iconic landmarks such as the Hollywood Walk of Fame, TCL Chinese Theatre, Hollywood Sign, and Hollywood Boulevard. Whether visiting alone or with family, Hollywood offers a mix of history, glamour, and entertainment.",
+    "budget": "$130 - $160",
+    "url": "https://www.hollywood.com/",
+    "image": "../images/hollywood.jpg"
+  }
+]
