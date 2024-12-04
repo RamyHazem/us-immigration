@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // State for toggling mobile menu
 
   // Handle scroll event to toggle navbar background
   const handleScroll = () => {
@@ -37,7 +38,7 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-around px-5 py-3">
         {/* Logo */}
-        <span className="sm:text-3xl lg:text-6xl font-bold cursor-pointer">
+        <span className="sm:text-3xl md:text-4xl lg:text-6xl font-bold cursor-pointer">
           <Link
             activeClass="active"
             to="home"
@@ -50,13 +51,27 @@ const Navbar = () => {
           </Link>
         </span>
 
+        {/* Hamburger Menu for Mobile */}
+        <div className="sm:hidden">
+          <button
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className="text-3xl"
+          >
+            {isMobileMenuOpen ? "✖" : "☰"}
+          </button>
+        </div>
+
         {/* Navigation Links */}
-        <nav>
-          <ul className="flex space-x-12">
+        <nav
+          className={`sm:flex ${
+            isMobileMenuOpen ? "block" : "hidden"
+          } sm:block`}
+        >
+          <ul className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 sm:space-x-8 md:space-x-10 lg:space-x-12">
             {navbarItems.map((item) => (
               <li
                 key={item.id}
-                className="text-2xl font-medium cursor-pointer hover:text-gray-500"
+                className="text-base sm:text-lg md:text-xl lg:text-2xl font-medium cursor-pointer hover:text-gray-500"
               >
                 <Link
                   activeClass="active"
