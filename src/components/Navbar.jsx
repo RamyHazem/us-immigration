@@ -56,14 +56,14 @@ const Navbar = () => {
             {navbarItems.map((item) => (
               <li
                 key={item.id}
-                className="text-2xl font-medium cursor-pointer hover:text-white"
+                className="text-2xl font-medium cursor-pointer hover:text-gray-500"
               >
                 <Link
                   activeClass="active"
                   to={item.id}
                   spy={true}
                   smooth={true}
-                  offset={0}
+                  offset={-100}
                   duration={500}
                 >
                   {item.name}
