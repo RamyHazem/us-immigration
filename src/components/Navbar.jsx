@@ -36,7 +36,7 @@ const Navbar = () => {
           : "bg-transparent backdrop-blur-none"
       }`}
     >
-      <div className="flex items-center justify-around px-5 py-3">
+      <div className="flex items-center mt-5 mx-8 justify-between px-5 py-3">
         {/* Logo */}
         <span className="sm:text-3xl md:text-4xl lg:text-6xl font-bold cursor-pointer">
           <Link
